@@ -1,11 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:300,600,400,700,400italic,600italic);
+@import url(https://www.google.com/fonts/#QuickUsePlace:quickUse/Family:Droid+Sans:400,700);
 
 .indepth_pages{
 	width: 100%;
 	position: relative;
 	overflow: hidden;
 	background-color: white;
-	font-family: 'Titillium Web';
+	font-family: 'Droid Sans', sans-serif;
 	font-size: 19px;
 	margin: auto;
 }
@@ -266,26 +266,9 @@
 
 
 
-.indepth_info{
-	display: table-cell;
-	width: auto;
-	margin: auto;
-	padding-top:  10px;
-	vertical-align: middle;
-	font-weight: 600;
-	font-style: italic;
-	font-size: 16px;
-}
-
-.indepth_info span{
-	font-weight: 600;
-	font-style: normal;
-}
 
 
-.indepth_info p{
-	margin-bottom: 10px;
-}
+
 
 
 
@@ -342,11 +325,11 @@
 	color: #e2e1dd;
 	font-size: 22px;
 	font-weight: 600;
-	width: 160px;
+	width: 180px;
 	text-align: right;
 	text-transform: uppercase;
 	height: auto;
-	padding-top: 16px;
+	padding-top: 28px;
 	float: left;
 }
 
@@ -358,227 +341,6 @@
 	background-repeat: no-repeat;
 	background-position: left center;
 	height: 100%;
-}
-
-.indepth_seprador{
-	background-image: url(../images/Division_subtitulo.png);
-	width: 738px;
-	height: 1px;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	margin: 15px auto;
-}
-
-.indepth_tabla_container{
-	width: 740px;
-	display: table;
-	margin: auto;
-}
-
-.indepth_table_info_team{
-	width: 100%;
-	display: inline-block;
-	text-align: center;
-}
-
-.indepth_tabla_header{
-	width: 100%;
-	height: 50px;
-	background-color:rgba(15, 18, 26, 0.75);
-}
-
-.indepth_tabla_header_left{
-	float: left;
-	line-height: 50px;
-	margin-left: 20px;
-	font-size: 16px;
-	font-weight: 400;
-	font-style: italic;
-}
-
-.indepth_tabla_header_left span{
-	margin-right: 8px;
-}
-
-.indepth_tabla_header_r{
-	float: right;
-	margin-right: 20px;
-	font-size: 16px;
-	font-weight: 400;
-}
-
-.indepth_yellow{
-	color: #e3a922;
-	
-}
-
-.indepth_monedas{
-	width: 20px;
-	height: 18px;
-	background-image: url(../images/Monedas.png);
-	margin-right: 20px;
-	float: left;
-	margin-top: 16px;
-}
-
-.indepth_monedas_num{
-	float: left;
-	line-height: 50px;
-}
-
-.indepth_info_title{
-	color: #e3a922;
-	font-weight: 400;
-	font-style: italic;
-	
-}
-
-.indepth_tabla_info_content{
-	background-color:rgba(15, 18, 26, 0.60);
-	display: table;
-	height: 230px;
-	font-size: 18px;
-}
-
-.indepth_info_image{
-	text-align: center;
-	height: 145px;
-}
-
-.indepth_tabla_cont{
-	float: left;
-}
-
-#indepth_info_escudo{
-	width: 220px;
-	
-}
-
-.indepth_info_sep{
-	height: 230px; 
-	width: 1px;
-	float: left;
-	background-image: url(../images/Division_bloque1.png);
-	background-position: center bottom;
-}
-
-#indepth_info_uniforme{
-	width: 220px;
-}
-
-#indepth_info_estadio{
-	width: 298px;
-}
- .indepth_info_image{
-	background-position: center center;
-	background-repeat: no-repeat;
-}
-
-#indepth_info_escudo .indepth_info_image{
-	background-image: url(../images/Escudo_sounders.png);
-	background-size: 56px 82px;
-}
-
-#indepth_info_uniforme .indepth_info_image{
-	background-image: url(../images/Uniforme_sounders.png);
-	background-size: 49px 84px;
-}
-
-#indepth_info_estadio .indepth_info_image{
-	background-image: url(../images/Estadio_mestalla.png);
-	background-size: 185px 84px;
-}
-
-.indepth_est_partidos{
-	width: 100%;
-	height: 100px;
-	margin-top: 15px;
-}
-
-.indepth_est_partidos_header{
-	width: 147.2px;
-	text-align: center;
-	float: left;
-}
-
-.indepth_est_head_item_up{
-	width: 100%;
-	height: 50px;
-	font-size: 18px;
-	background-color:rgba(15, 18, 26, 0.75);
-	line-height: 50px;
-	
-}
-
-.indepth_est_head_item_down{
-	background-color:rgba(15, 18, 26, 0.60);
-	height: 50px;
-	font-size: 24px;
-	line-height: 50px;
-}
-
-.indepth_est_partidos_sep{
-	width: 1px;
-	float: left;
-	height: 100%;
-	background-image: url(../images/Division_bloque2.png);
-}
-
-.indepth_tabla_objetivos{
-	width: 100%;
-	display: inline-block;
-	margin-top: 15px;
-	
-}
-
-.indepth_tabla_objetivos_head{
-	width: 100%;
-	height: 70px;
-	background-color:rgba(15, 18, 26, 0.75);
-	color: #e3a922;
-	line-height: 70px;
-	text-align: left;
-	font-size: 20px;
-	font-weight: 600;
-	font-size: 18px;
-}
-
-.indepth_tabla_objetivos_head span{
-	margin-left: 100px;
-	text-align: left;
-	font-size: 20px;
-	text-transform: uppercase;
-}
-
-.indepth_tabla_objetivos_item{
-	width: 100%;
-	text-align: left;
-	padding: 16px 0px;
-	
-}
-
-.indepth_tabla_objetivos_item:nth-child(2n) {
-	background-color:rgba(15, 18, 26, 0.60);
-}
-
-.indepth_tabla_objetivos_item:nth-child(2n+1){
-	background-color:rgba(15, 18, 26, 0.75);
-}
-
-.indepth_tabla_objetivos_itemin{
-	width: 530px;
-	padding-right: 10px;
-	margin: auto;
-	color: rgba(255, 255, 255, 0.6);
-	
-}
-
-.indepth_done{
-	background-image: url(../images/Palomita_objetivos.svg);
-	background-position: right center;
-	background-repeat: no-repeat;
-	color: rgba(255, 255, 255, 1);
 }
 
 #indepth_break_1 .indepth_parallax_back{
@@ -598,81 +360,268 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% 50%;
-
 }
 
 #indepth_page2{
-	background-image: url(../images/Fondo_twitch.jpg);
+	background-image: url(../images/Fondo_disponible.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% auto;
 	padding:50px 0px;
-	background-color: #180f21;
-}
-
-.indepth_twitch_cont{
-	width: 740px;
-	margin: auto;
-	display: table;
-	border: 10px solid #121213;
-	margin-bottom: 20px;
-}
-
-.indepth_twitch{
-	position: relative;
-	padding-bottom: 56.25%;
-	overflow: hidden;
-	margin: auto;
-	padding-top: 10%;
-}
-
-.indepth_twitch iframe
- {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.indepth_siguemos_cont{
-	display: table;
-	margin: auto;
-}
-
-.indepth_siguemos_text{
 	color: white;
-	font-size: 18px;
-	width: 190px;
-	background-color: #65459B;
-	height: 40px;
-	line-height: 40px;
-	font-weight: 500;
-	text-align: center;
+	
 }
 
-.indepth_flechita_siguemos{
-	width: 15px;
-	margin: auto;
-	margin-top: -3px;
-	height: 15px;
-	background-image: url(../images/Siguenos.svg);
-}
-
-.indepth_siguenos_juan{
+.indepth_disponible_title_line{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	width: 39%;
+	display: table;
 	margin-top: 10px;
-	width: 40px;
-	height: 50px;
-	background-image: url(../images/Juan.svg);
-	background-size: 100% 100%;
-	background-position: center center;
+}
+
+.indepth_disponible_title_line.left{
+	left: 0px;
+}
+
+.indepth_disponible_title_line.right{
+	right: 0px;
+}
+
+.indepth_disponible_title_line div{
+	width: 100%;
+	height: 2px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #e2e1dd;
+}
+
+.indepth_disponible_title{
+	font-size: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 960px;
+	display: table;
 	margin: auto;
+	position: relative;
+}
+
+.indepth_disponible_numeros{
+	display: table;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.indepth_disponible_numeros_item{
+	width: 64px;
+	height: 90px;
+	margin: 0 5px;
+	background-image: url(../images/0.svg);
+	float: left;
+}
+
+.indepth_disponible_numeros_item.numero_1{
+	background-image: url(../images/1.svg);
+}
+
+.indepth_disponible_numeros_item.numero_2{
+	background-image: url(../images/2.svg);
+}
+
+.indepth_disponible_numeros_item.numero_3{
+	background-image: url(../images/3.svg);
+}
+
+.indepth_disponible_numeros_item.numero_4{
+	background-image: url(../images/4.svg);
+}
+
+.indepth_disponible_numeros_item.numero_5{
+	background-image: url(../images/5.svg);
+}
+
+.indepth_disponible_numeros_item.numero_6{
+	background-image: url(../images/6.svg);
+}
+
+.indepth_disponible_numeros_item.numero_7{
+	background-image: url(../images/7.svg);
+}
+
+.indepth_disponible_numeros_item.numero_8{
+	background-image: url(../images/8.svg);
+}
+.indepth_disponible_numeros_item.numero_9{
+	background-image: url(../images/9.svg);
+}
+
+.indepth_diponible_barra{
+	width: 960px;
+	margin: auto;
+	display: table;
+	margin-top: 50px;
+}
+
+.indepth_diponible_barra_text{
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+	display: table;
+	width: 100%;
+}
+
+.indepth_diponible_text.left{
+	float: left;
+}
+
+.indepth_diponible_text.right{
+	float: right;
+}
+
+.indepth_barra_cont{
+	width: 100%;
+	height: 10px;
+	background-color: #e2e1dd;
+	position: relative;
+	margin-top: 5px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.indepth_barra_inicial{
+	height: 10px;
+	position: absolute;
+	left: 0px;
+	top:0px;
+	background-color: black;
 }
 
 #indepth_page3{
 	background: #121212;
-	padding: 50px 0px;
+	color: #e2e1dd;
+	padding: 30px 0px;
 }
+
+#indepth_page3 .indepth_disponible_title_line{
+	width: 30%;
+}
+
+.indepth_apuestas_container{
+	width: 960px;
+	margin: auto;
+	margin-top: 30px;
+}
+
+
+.indepth_apuestas_fecha{
+	width: 100%;
+	height: 38px;
+	background-color: #404446;
+	line-height: 44px;
+	text-transform: uppercase;
+	color: #d6d6d6;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.indepth_apuestas_fecha span{
+	margin-left: 16px;
+	color: #d6d6d6;
+}
+
+.indepth_apuestas_info{
+	width: 100%;
+	min-height: 145px;
+	display: table;
+	margin-top: 6px;
+}
+
+
+.indepth_apuestas_col{
+	float: left;
+	
+}
+
+
+.indepth_apuestas_col.left{
+	width: 70px;
+	margin-right: 1px;	
+}
+
+.indepth_apuestas_col.center{
+	width: 483px;
+	margin-right: 2px;	
+}
+
+.indepth_apuestas_col.right{
+	width: 403px;
+	margin-right: 1px;	
+	background-color: #28292a;
+	height: 145px;
+}
+
+.indepth_logo_apuesta{
+	width: 100%;
+	height: 70px;
+	background-image: url(../images/Light_soccer.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 40px auto;
+}
+
+.indepth_info{
+	display: table-cell;
+	width: auto;
+	margin: auto;
+	padding-top:  10px;
+	vertical-align: middle;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 16px;
+	
+	
+}
+
+.indepth_info span{
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+.indepth_info p{
+	margin-bottom: 10px;
+}
+
+.indepth_apuestas_up{
+	height: 70px;
+	margin-bottom: 2px;
+	background-color: #28292a;
+}
+
+.indepth_apuestas_down{
+	height: 74px;
+	background-color: #28292a;
+}
+
+.indepth_apuestas_game{
+	text-transform: uppercase;
+	font-size: 18px;
+	padding-top: 12px;
+	margin-left: 20px;
+}
+
+.indepth_apuestas_game2{
+	font-size: 18px;
+	font-weight: 300;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+
+
+
+
 .indepth_quotes_cont{
 	width: 1000px;
 	display: table;
