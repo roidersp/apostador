@@ -513,6 +513,9 @@
 	margin-top: 30px;
 }
 
+.indepth_apuestas_item{
+	margin-top: 30px;
+}
 
 .indepth_apuestas_fecha{
 	width: 100%;
@@ -555,10 +558,15 @@
 }
 
 .indepth_apuestas_col.right{
-	width: 403px;
+	width: 373px;
 	margin-right: 1px;	
 	background-color: #28292a;
-	height: 145px;
+	height: 131px;
+	padding: 15px 15px 0px 15px;
+}
+
+.indepth_apuestas_col.right p{
+	
 }
 
 .indepth_logo_apuesta{
@@ -618,185 +626,70 @@
 	padding-top: 10px;
 }
 
+.indepth_apostado{
+	padding-left: 45px;
+	background-image: url(../images/Apostado.svg);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	height: 36px;
+	line-height: 36px;
+}
 
+.indepth_status{
+	padding-left: 45px;
+	background-image: url(../images/Pendiente.svg);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	height: 36px;
+	line-height: 36px;
+	color: #1ca4e1;
+}
 
+.indepth_status.pendiente{
+	color: #1ca4e1;
+	background-image: url(../images/Pendiente.svg);
+}
 
+.indepth_status.ganado{
+	color: #46bc99;
+	background-image: url(../images/Ganado.svg);
+}
 
-.indepth_quotes_cont{
-	width: 1000px;
-	display: table;
+.indepth_status.perdido{
+	color: #d83c3c;
+	background-image: url(../images/Perdido.svg);
+}
+
+.indepth_nota{
+	background-color: #404347;
+	color: #f7f7f7;
+	font-size: 16px;
+	width: 620px;
 	margin: auto;
 	margin-top: 30px;
-}
-
-.indepth_quote_box{
-	display: table; 
-	float: left;
-	width: 480px;
-	margin: 0 10px;
-}
-
-.indepth_quote_text{
-	width: 100%;
-	min-height: 215px;
-	display: table;
-	background: #1d2029;
-}
-
-.indepth_quote_autor{
-	width: 100%;
-	height:  40px;
-	line-height: 40px;
-	color: #e3a922;
-	background: #161a20;
-	font-size: 16px;
-	font-style: italic;
+	padding: 46px 180px;
 	text-align: center;
+	line-height: 18px;
+	letter-spacing: .7px;
 }
 
-.indepth_quotes{
-	height: 50px;
-	width: 100%;
-	
-	
-	background-size: 40px auto;
-	background-repeat: no-repeat;
+
+.indepth_nota_title{
+	font-weight: 600;
+	line-height: 24px;
 }
 
-.indepth_quotes.up{
-	background-image: url(../images/Quote_abre.svg);
-	background-position: center bottom;
-}
 
-.indepth_quotes.down{
-	background-image: url(../images/Quote_cierra.svg);
-	background-position: center top;
-}
-
-.indepth_quote_center{
-	color: #c8c8d3;
-	text-align: center;
-	width: 100%;
-	height: 130px;
-	display: table;
-}
-
-.indepth_quote_cont_text{
-	padding: 20px;
-	display: table-cell;
-	line-height: 30px;
-	vertical-align: middle;
-	
-}
 #indepth_page4{
-	background-image: url(../images/Fondo_lineadetiempo.jpg);
+	background-image: url(../images/Fondo_expertos.jpg);
 	background-size: cover;
-	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-color: #121212;
 	background-position: center center;
 	margin: auto;
-	background-color: #191c22;
+	background-color: white;
 	padding: 40px 0;
 }
 
-.indepth_timeline{
-	width: 600px;
-	margin: auto;
-	display: table;
-	height: 100%;
-	position: relative;
-	margin-top: 30px;
-}
-
-.indepth_timeline_cont{
-	width: 100%;
-	margin: auto;
-	text-align: left;
-	display: table;
-	margin-bottom: 50px;
-
-}
-
-.indepth_timeline_cont:last-child{
-	margin-bottom: 0px;
-}
-
-.indepth_timeline_m{
-	width: 100%;
-	display: table;
-	margin: 0px auto;
-	background: transparent;
-	z-index: 10;
-	position: relative;
-	
-}
-
-.indepth_timeline_bar{
-	position: absolute;
-	top:0px;
-	bottom: 0px;
-	width: 3px;
-	background: #0E0E10;
-	left:28.5px;
-	z-index: 1;
-}
-
-.indepth_tl_icono{
-	width: 60px;
-	height: 60px;
-	background-image: url(../images/Icono_goles.svg);
-	float: left;
-	margin-right: 15px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center center;
-}
-
-
-.indepth_tl_icono.goles{
-	background-image: url(../images/Icono_goles.svg);
-}
-
-.indepth_tl_icono.jugador{
-	background-image: url(../images/Icono_jugador.svg);
-}
-
-.indepth_tl_icono.logros{
-	background-image: url(../images/Icono_logros.svg);
-}
-
-.indepth_tl_icono.uniforme{
-	background-image: url(../images/Icono_uniforme.svg);
-}
-
-.indepth_tl_icono.estadio{
-	background-image: url(../images/Icono_estadio.svg);
-}
-
-.indepth_tl_icono.monedas{
-	background-image: url(../images/Icono_monedas.svg);
-}
-
-.indepth_tl_text{
-	display: table;
-	padding: 10px 0px;
-	float: left;
-}
-
-.indepth_tl_fecha{
-	color: #e4bb40;
-	font-size: 18px;
-	margin-bottom: 4px;
-	line-height: 18px;
-	font-style: italic;
-}
-
-.indepth_tl_dato{
-	color: white;
-	font-size: 18px;
-	line-height: 18px;
-}
 
 @media screen and (max-width:1023px) {
 	.indepth_quotes_cont{
