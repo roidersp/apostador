@@ -6,6 +6,75 @@ var disqus_per_page=3;
 var tamaño_total=1920;
 
 
+
+
+var indepth_circulos = function(component, width, minw, porcentaje, img){
+		var svg = d3.select("#"+component).append("svg") 
+		    .attr("xmlns", "http://www.w3.org/2000/svg")
+		    .attr("version", "1.1")
+		    .attr("viewBox", "0 0 130 150");	
+	
+		var g=svg.append("g").attr("id","pieChart")
+		.attr("transform", "translate(" + 130 / 2 + "," + 130 / 2 + ")");
+		var initial_entity = JSON.parse('[{"number":"0"},{"number":"1"}]');
+		var color = ["#FFFFFF", "#000000"];
+		var diameter= width;
+		var donut_center= minw;
+		var entity= JSON.parse('[{"number":"'+porcentaje+'"},{"number":"'+(100-porcentaje)+'"}]');
+		
+		var radius = diameter/2;   //calculate the radius value
+		
+		var color = d3.scale.ordinal() // assign the color in the array for each pie
+		    .range(color);  // color array
+		
+		var arc = d3.svg.arc()  // draw the circle for the donnut
+		    .outerRadius(radius) // size donnut
+		    .innerRadius(donut_center/2); // size donut center
+		    
+		var pie = d3.layout.pie() // draw the piece of pie
+		    .sort(null)
+		    .value(function (d) { 
+		    	 return d.number; 
+		    	}); //assing the value of the pie for calculate the size
+		
+		var path = g.selectAll("path")
+		  .data(pie(initial_entity))
+		  .enter().append("path")
+		  .attr("fill", function(d, i) { return color(i); })
+		  .attr("d", arc)
+		  .each(function(d) { this._current = d; }); 
+		
+		  $.each(entity ,function (i, array){
+			  array.number = +array.number;
+		  });
+		 	
+		 var timeout = setTimeout(function(){change();},1000);
+		
+		function change() {
+		    clearTimeout(timeout);
+		    path = path.data(pie(entity)); // compute the new angles
+		    path.transition().duration(750).attrTween("d", arcTween); // redraw the arcs
+		}
+						  
+		function arcTween(a) {
+		  	var i = d3.interpolate(this._current, a);
+		  	this._current = i(0);
+		  	return function(t) {
+		    	return arc(i(t));
+		};
+	}
+	
+	
+svg.append("image")
+		.attr("transform", "translate(" + 42 + "," + 42 + ")")
+		.attr("width",46)
+		.attr("height",46)
+		.attr("xlink:href","images/Imgs_dark_"+img+".svg");
+
+}
+
+
+
  function loadDisqus(source, identifier, url) {
 if (window.DISQUS) {
    jQuery('#disqus_thread').insertAfter(source);
@@ -55,6 +124,22 @@ $('.indepth_jugador').hover(
          }
      );
      
+ s = skrollr.init({
+	mobileCheck: function() {
+        //hack - forces mobile version to be off
+        return false;
+     }
+});
+	 
+$(" #skrollr-body").css({
+	 "min-height": "1px",
+	"position": "relative",
+	"top": 0,
+	"left": 0, 
+	"width": "100%",
+	"height": "auto"
+ });
+     
    
  var device = navigator.userAgent
 
@@ -71,3 +156,13 @@ else
 {
 	mobile=false;
 }
+
+
+
+indepth_circulos("circulo_futbol", 100, 94, 30, "soccer");
+indepth_circulos("circulo_americano", 100, 94, 60, "football");
+indepth_circulos("circulo_basketball", 100, 94, 10, "basketball");
+indepth_circulos("circulo_tenia", 100, 94, 12, "tennis");
+indepth_circulos("circulo_box", 100, 94, 15, "box");
+indepth_circulos("circulo_hockey", 100, 94, 20, "hockey");
+indepth_circulos("circulo_beisball", 100, 94, 25, "baseball");
