@@ -212,7 +212,7 @@
 	 cursor: pointer;
 	 width: 50px;
 	 height: 50px;
-	 background-image: url(../images/Flecha.svg);
+	 
 	 background-size: 100%;
 	 margin-top: 60px;
 }
@@ -257,20 +257,6 @@
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
 }
-
-#indepth_intro{
-	background-image: url(../images/Fondo_integrantes.jpg);
-}
-
-
-
-
-
-
-
-
-
-
 
 
 .indepth_jugadores{
