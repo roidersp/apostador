@@ -1,6 +1,6 @@
 var disqus_shortname = 'juanfutbol';
 var disqus_identifier;
-var disqus_url="el-diario-de-juanfdgdfgdf";
+var disqus_url="el-diario-de-juan";
 var disqus_number_c=2;
 var disqus_per_page=3;
 var tamaño_total=1920;
@@ -69,7 +69,7 @@ svg.append("image")
 		.attr("transform", "translate(" + 42 + "," + 42 + ")")
 		.attr("width",46)
 		.attr("height",46)
-		.attr("xlink:href","http://s3.amazonaws.com/stadium-azteca.underdog.gs/page/626afd40-91b2-4c1d-b95e-8e298ed39c2f/final/images/Imgs_dark_"+img+".svg");
+		.attr("xlink:href","images/Imgs_dark_"+img+".svg");
 
 }
 
