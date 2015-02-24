@@ -38,7 +38,7 @@ var indepth_circulos = function(component, width, minw, porcentaje, img){
 		    	}); //assing the value of the pie for calculate the size
 		
 		var path = g.selectAll("path")
-		  .data(pie(initial_entity))
+		  .data(pie(entity))
 		  .enter().append("path")
 		  .attr("fill", function(d, i) { return color(i); })
 		  .attr("d", arc)
@@ -48,13 +48,13 @@ var indepth_circulos = function(component, width, minw, porcentaje, img){
 			  array.number = +array.number;
 		  });
 		 	
-		 var timeout = setTimeout(function(){change();},1000);
+		// var timeout = setTimeout(function(){change();},1000);
 		
-		function change() {
+		/*function change() {
 		    clearTimeout(timeout);
 		    path = path.data(pie(entity)); // compute the new angles
 		    path.transition().duration(750).attrTween("d", arcTween); // redraw the arcs
-		}
+		}*/
 						  
 		function arcTween(a) {
 		  	var i = d3.interpolate(this._current, a);

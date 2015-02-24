@@ -910,216 +910,408 @@
 	}
 }
 
+@media screen and (max-width:960px) {
+	.indepth_cover_side.right {
+		right: -200px;
+	}
+	
+	.indepth_cover_side.left {
+		left: -200px;
+	}
+	
+	.indepth_cover_side {
+		width: 254px;
+		background-size: 100% auto;
+	}
+	
+	#ficha1 {
+		top: 85px;
+		left: 120px;
+	}
+	
+	#indepth_page2{
+		background-size: auto 100%;
+	}
+	
+	.indepth_disponible_title{
+		width: 800px;
+	}
+	
+	.indepth_disponible_title_line{
+		width: 37%;
+	}
+	
+	.indepth_diponible_barra{
+		width: 800px;
+	}
+	
+	.indepth_disponible_circulos_item{
+		width: 100px;
+	}
+	
+	.indepth_apuestas_container{
+		width: 800px;
+	}
+	
+	.indepth_apuestas_col.right{
+		width: 333px;
+	}
+	
+	.indepth_apuestas_col.center{
+		width: 363px;
+	}
+	
+	.indepth_nota{
+		width: 440px;
+	}
+	
+	.indepth_expertos_container{
+		width: 800px;
+	}
+	
+	.indepth_experto_container{
+		width: 256px;
+	}
+	
+	.indepth_apuesta_expertos{
+		width: 800px;
+	}
+	.indepth_expertos_efectividad{
+		width: 80%;
+	}
+	.indepth_apuesta_expertos_resultados{
+		width: 800px;
+	}
+	
+	.indepth_apuesta_expertos_resultado{
+		width: 256px;
+	}
+}
+
+
 @media screen and (max-width:830px) {
-	.indepth_jugador{
-		margin: 0px 20px;
+	.indepth_cover_side.right {
+		right: -100px;
 	}
 	
-	.indepth_break .indepth_page_body{
-		height: 100%;
-		background-size: auto 800px;
-		top: 0px;
-		position: relative;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: 50% 50%;
-	}
-}
-
-@media screen and (max-width:760px) {
-	.indepth_tabla_container{
-		width: 560px;
+	.indepth_cover_side.left {
+		left: -100px;
 	}
 	
-	#indepth_info_estadio {
-		width: 238px;
+	.indepth_cover_side {
+		width: 204px;
+		background-size: 100% auto;
 	}
 	
-	#indepth_info_uniforme,  #indepth_info_escudo{
-		width: 160px;
-	}
-	.indepth_est_partidos_header {
-		width: 110.2px;
-	}
-	.indepth_tabla_objetivos_itemin {
-		width: 500px;
+	#ficha1 {
+		top: 85px;
+		left: 120px;
 	}
 	
-	.indepth_tabla_objetivos_head span{
-		margin-left: 30px;
+	#indepth_page2{
+		background-size: auto 100%;
 	}
 	
-	.indepth_twitch_cont{
-		max-width: 760px;
-		width: 90%;
+	.indepth_disponible_title{
+		width: 700px;
 	}
 	
-}
-
-@media screen and (max-width:660px) {
-	.indepth_jugador{
-		margin: 0px 10px;
+	.indepth_disponible_title_line{
+		width: 37%;
 	}
 	
-	.indepth_timeline{
-		width: 500px;
+	.indepth_diponible_barra{
+		width: 700px;
 	}
 	
-	.indepth_break{
-		height: 600px;
+	.indepth_disponible_circulos_item{
+		width: 100px;
+		height: 130px;
 	}
 	
-	.indepth_break .indepth_page_body{
-		height: 100%;
-		background-size: auto 600px;
-
+	.indepth_apuestas_container{
+		width: 700px;
 	}
 	
-	.indepth_jugador {
-		width: 280px;
+	.indepth_apuestas_col.right{
+		width: 293px;
 	}
 	
-	.indepth_jugador_info {
-		width: 125px;
-		float: left;
-		margin-right: 30px;
+	.indepth_apuestas_col.center{
+		width: 303px;
 	}
 	
-	.indepth_jugador_est {
-		width: 125px;
-		float: left;
-		display: block;
-		background-image: none;
+	.indepth_nota{
+		width: 380px;
+		padding: 46px 160px;
 	}
 	
-	.indepth_campo{
-		background-image: none;
+	.indepth_expertos_container{
+		width: 635px;
 	}
 	
-}
-
-@media screen and (max-width:600px) {
-	.indepth_jugador{
-		margin: 0 40px;
-		margin-bottom: 20px;
-	}
-	
-	#indepth_intro{
-		height: auto;
-		display: table;
-	}
-	
-	#indepth_intro .indepth_page_body{
-		position: inherit;
-	}
-	
-	.indepth_jugadores{
-		margin-bottom: 0px;
-	}
-}
-
-@media screen and (max-width:414px) {
-	.indepth_tabla_container{
-		width: 310px;
-		display: block;
-	}
-	
-	.mobile_none{
-		display: none;
-	}
-	
-	.indepth_est_partidos_header{
-		width: 154.5px;
-	}
-	.indepth_seprador{
-		width: 300px;
-	}
-	
-	.indepth_tabla_header{
-		height: 100px;
-	}
-	
-	.indepth_tabla_header_left{
-		float: none;
-		margin: auto;
-		display: table;
-	}
-	
-	#indepth_info_sep2{
-		display: none;
-	}
-	
-	#indepth_info_uniforme, #indepth_info_escudo {
-		width: 154.5px;
-	}
-	
-	.indepth_est_partidos_header.last_mobile{
-		width: 100%;
-	}
-	
-	
-	#indepth_info_estadio {
+	.indepth_experto_container{
 		width: 310px;
 		margin-bottom: 15px;
 	}
 	
-	.indepth_tabla_header_r {
-		float: none; 
-		margin-right: 0px; 
+	.indepth_experto_container:last-child{
+		float: none;
 		margin: auto;
-		display: table;
 	}
 	
-	.indepth_tabla_objetivos_itemin {
-		width: 270px;
+	.indepth_apuesta_expertos{
+		width: 700px;
 	}
 	
-	.indepth_quotes_cont, .indepth_quote_box {
-		width: 300px;
+	
+	.indepth_experto_sep.sep_dos{
+		display: none;
 	}
 	
-	.indepth_timeline{
-		width: 300px;
-		
+
+	.indepth_expertos_efectividad{
+		width: 80%;
+	}
+	.indepth_apuesta_expertos_resultados{
+		width: 700px;
 	}
 	
-	.indepth_tl_text{
-		max-width: 220px;
+	.indepth_apuesta_expertos_resultado{
+		width: 228.3px;
 	}
 	
-	.indepth_break{
-		height: 300px;
+	.indepth_disponible_title_line{
+		width: 34%;
 	}
-	
-	#indepth_break_1 .indepth_parallax_back{
-		background-image: url(../images/Anuncio.jpg);
-		background-size: auto 320px;
+	#ficha2{
+		right: 80px;
 	}
 }
 
+
+
+@media screen and (max-width:760px) {
+	.indepth_muneco_img{
+		right: 100px;
+	}	
+	
+	.indepth_disponible_title{
+		width: 660px;
+	}
+	
+	.indepth_diponible_barra{
+		width: 600px;
+	}
+	
+	.indepth_disponible_circulos{
+		width: 540px;
+	}
+	
+	.indepth_disponible_circulos_item{
+		width: 130px;
+		height: 150px;
+	}
+	
+	#indepth_page3 .indepth_disponible_title_line{
+		width: 23%;
+	}
+	
+	.indepth_apuestas_container{
+		width: 600px;
+	}
+	
+	.indepth_apuestas_col.right {
+		width: 193px;
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.indepth_nota {
+		width: 380px;
+		padding: 46px 110px;
+	}
+	
+	.indepth_title{
+		width: 500px;
+		margin: auto;
+	}
+	
+	.indepth_title img{
+		width: 100%;
+	}
+	
+	#ficha4{
+		display: none;
+	}
+	
+	#ficha1 {
+		left: 40px;
+	}
+}
+
+@media screen and (max-width:660px) {
+	.indepth_page_content .indepth_text{
+		width: 80%;
+	}
+	
+	.indepth_disponible_title{
+		width: 600px;
+	}
+	
+	.indepth_experto_sep.sep_uno{
+		display: none;
+	}
+	
+	.indepth_experto_container{
+		float: none;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+	
+	.indepth_disponible_title{
+		width: 90%;
+	}
+	
+	.indepth_disponible_title_line{
+		width: 20%;
+	}
+	
+	.indepth_expertos_container{
+		width: auto;
+	}
+	
+	.indepth_apuesta_expertos{
+		padding: 30px 15px;
+		width: auto;
+		min-width: 270px;
+		display: table;
+	}
+	
+	.indepth_apuesta_expertos_resultados{
+		width: auto;
+		display: table;
+	}
+	
+	.indepth_apuesta_expertos_resultado{
+		float: none;
+		margin: auto;
+		margin-bottom: 15px;
+		width: 300px;
+	}
+	
+	
+}
+
+@media screen and (max-width:600px) {
+	.indepth_cover_side{
+		
+	}	
+	
+	#ficha1 {
+		display: none;
+	}
+	
+	.indepth_diponible_barra{
+		width: 90%;
+	}
+	
+	.indepth_disponible_circulos {
+		width: 520px;
+	}
+	
+	.indepth_disponible_circulos {
+		width: 260px;
+	}
+	
+	.indepth_apuestas_container {
+		width: 300px;
+	}
+	
+	.indepth_apuestas_col.center{
+		float: none;
+		width: 100%;
+	}
+	
+	.indepth_apuestas_col{
+		float: none;
+	}
+	
+	.indepth_apuestas_col.right{
+		width: 90%;
+		padding: 15px 5%;
+		height: auto;
+		display: table;
+		margin-top: 2px;
+	}
+	
+	.indepth_nota {
+		width: 200px;
+		padding: 46px 50px;
+	}
+	
+	.indepth_title {
+		width: 80%;
+	}
+	
+	#indepth_cover .indepth_page_body{
+		z-index: 100;
+	}
+	
+	#ficha3 {
+		top: 500px;
+		left: 40px;
+	}
+	#indepth_page3 .indepth_disponible_title_line{
+		width: 15%;
+	}
+}
+
+@media screen and (max-width:414px) {
+	#ficha3 {
+		display: none;	
+	}	
+	
+	#indepth_page3 .indepth_disponible_title_line {
+width: 10%;
+}
+
+.indepth_break {
+height: 500px;
+}
+	
+}
+
 @media screen and (max-width:385px) {
-	.indepth_jugador{
-		margin: 0 15px;
-		margin-bottom: 20px;
-	}
-	.indepth_jugadores{
-		max-width: 310px;
-	}
 	
-	#indepth_cover .indepth_title{
-		font-size: 50px;
-	}
-	
-	#indepth_cover .indepth_subtitle{
-		font-size: 52px;
-	}
 	
 	#indepth_cover .indepth_titlle_container{
-		margin-top: 100px;
+		margin-top: 200px;
 	}
 	
 	#indepth_cover{
 		height: 500px;
+	}
+	
+	#ficha5{
+		display: none;
+	}
+	#indepth_page3 .indepth_disponible_title_line {
+width: 5%;
+}
+
+#indepth_cover .indepth_parallax_back {
+background-size: 250px auto, cover;
+background-position: center 125px, 50% 0px;
+background-attachment: scroll;
+}
+	
+}
+
+@media screen and (max-width:360px) {
+	.indepth_disponible_numeros_item{
+		width: 50px;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
 	}
 }
 
