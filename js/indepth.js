@@ -1,6 +1,6 @@
 var disqus_shortname = 'juanfutbol';
 var disqus_identifier;
-var disqus_url="el-diario-de-juan";
+var disqus_url="626afd40-91b2-4c1d-b95e-8e298ed39c2f";
 var disqus_number_c=2;
 var disqus_per_page=3;
 var tamaño_total=1920;
@@ -69,7 +69,7 @@ svg.append("image")
 		.attr("transform", "translate(" + 42 + "," + 42 + ")")
 		.attr("width",46)
 		.attr("height",46)
-		.attr("xlink:href","images/Imgs_dark_"+img+".svg");
+		.attr("xlink:href","http://s3.amazonaws.com/stadium-azteca.underdog.gs/page/626afd40-91b2-4c1d-b95e-8e298ed39c2f/final/images/Imgs_dark_"+img+".svg");
 
 }
 
@@ -159,10 +159,10 @@ else
 
 
 
-indepth_circulos("circulo_futbol", 100, 94, 30, "soccer");
-indepth_circulos("circulo_americano", 100, 94, 60, "football");
-indepth_circulos("circulo_basketball", 100, 94, 10, "basketball");
-indepth_circulos("circulo_tenia", 100, 94, 12, "tennis");
-indepth_circulos("circulo_box", 100, 94, 15, "box");
-indepth_circulos("circulo_hockey", 100, 94, 20, "hockey");
-indepth_circulos("circulo_beisball", 100, 94, 25, "baseball");
+indepth_circulos("circulo_futbol", 100, 94, 0, "soccer");
+indepth_circulos("circulo_americano", 100, 94, 0, "football");
+indepth_circulos("circulo_basketball", 100, 94, 0, "basketball");
+indepth_circulos("circulo_tenia", 100, 94, 0, "tennis");
+indepth_circulos("circulo_box", 100, 94, 0, "box");
+indepth_circulos("circulo_hockey", 100, 94, 0, "hockey");
+indepth_circulos("circulo_beisball", 100, 94, 0, "baseball");

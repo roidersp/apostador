@@ -1,5 +1,9 @@
 @import url(https://www.google.com/fonts/#QuickUsePlace:quickUse/Family:Droid+Sans:400,700);
 
+#nav-bar-wrapper{
+	display: none;
+}
+
 .indepth_pages{
 	width: 100%;
 	position: relative;
@@ -224,7 +228,7 @@
 #indepth_cover .indepth_parallax_back{
 	background-image: url(../images/Silueta_1.png), url(../images/Fondo_portada.jpg) ;
 	background-size: 450px auto, cover;
-	background-position: center 25px, 50% 0px;	
+	background-position: center 85px, 50% 0px;	
 	background-attachment: fixed;
 }
 
@@ -592,7 +596,6 @@
 }
 
 .indepth_apuestas_col.right p{
-	
 }
 
 .indepth_logo_apuesta{
@@ -602,6 +605,10 @@
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 40px auto;
+}
+
+.indepth_logo_apuesta.basket{
+	background-image: url(../images/Light_basketball.svg);
 }
 
 .indepth_info{
@@ -1264,6 +1271,58 @@
 	#indepth_page3 .indepth_disponible_title_line{
 		width: 15%;
 	}
+	
+	#indepth_page1{
+		height: 500px;
+	}
+	
+	.indepth_muneco{
+		width: 100%;
+	}
+	
+	
+	.indepth_muneco_img{
+		width: 100%;
+		right: 0;
+		height: 450px;
+		
+	}
+	
+	.indepth_muneco_img img{
+		width: 300px;
+		margin: auto;
+		
+	}
+	
+	.indepth_muneco_lines{
+		width: 200px;
+	}
+	
+	.indepth_muneco_info{
+		margin-top: 0;
+		position: absolute;
+		bottom: 30px;
+		left: 0px;
+		z-index: 100;
+		width: 100%;
+	}
+	
+	.indepth_muneco_lines{
+		display: none;
+	}
+	
+	.indepth_muneco_item_left{
+		text-align: center;
+		width: 200px;
+		margin: auto;
+		float: none;
+	}
+	
+	.indepth_page_content .indepth_text{
+		width: 96%
+	}
+
+	
 }
 
 @media screen and (max-width:414px) {
