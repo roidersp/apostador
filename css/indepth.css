@@ -1,11 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web:300,600,400,700,400italic,600italic);
+@import url(https://www.google.com/fonts/#QuickUsePlace:quickUse/Family:Droid+Sans:400,700);
+
+#nav-bar-wrapper{
+	display: none;
+}
 
 .indepth_pages{
 	width: 100%;
 	position: relative;
 	overflow: hidden;
 	background-color: white;
-	font-family: 'Titillium Web';
+	font-family: 'Droid Sans', sans-serif;
 	font-size: 19px;
 	margin: auto;
 }
@@ -224,7 +228,8 @@
 #indepth_cover .indepth_parallax_back{
 	background-image: url(../images/Silueta_1.png), url(../images/Fondo_portada.jpg) ;
 	background-size: 450px auto, cover;
-	background-position: center 25px, 50% 0px;	
+	background-position: center 85px, 50% 0px;	
+	background-attachment: fixed;
 }
 
 #indepth_cover .indepth_cover_back_body{
@@ -254,7 +259,6 @@
 	background-color: #000;
 	top: 0px;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-position: 50% 50%;
 }
 
@@ -266,26 +270,9 @@
 
 
 
-.indepth_info{
-	display: table-cell;
-	width: auto;
-	margin: auto;
-	padding-top:  10px;
-	vertical-align: middle;
-	font-weight: 600;
-	font-style: italic;
-	font-size: 16px;
-}
-
-.indepth_info span{
-	font-weight: 600;
-	font-style: normal;
-}
 
 
-.indepth_info p{
-	margin-bottom: 10px;
-}
+
 
 
 
@@ -342,248 +329,28 @@
 	color: #e2e1dd;
 	font-size: 22px;
 	font-weight: 600;
-	width: 160px;
+	width: 180px;
 	text-align: right;
 	text-transform: uppercase;
 	height: auto;
-	padding-top: 16px;
+	padding-top: 28px;
 	float: left;
 }
 
 .indepth_muneco_lines{
 	background-image: url(../images/Linea.png);
 	float: left;
-	width: 280px;
+	width: 350px;
 	margin-left: 20px;
 	background-repeat: no-repeat;
 	background-position: left center;
 	height: 100%;
 }
 
-.indepth_seprador{
-	background-image: url(../images/Division_subtitulo.png);
-	width: 738px;
-	height: 1px;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	margin: 15px auto;
-}
-
-.indepth_tabla_container{
-	width: 740px;
-	display: table;
-	margin: auto;
-}
-
-.indepth_table_info_team{
-	width: 100%;
-	display: inline-block;
-	text-align: center;
-}
-
-.indepth_tabla_header{
-	width: 100%;
-	height: 50px;
-	background-color:rgba(15, 18, 26, 0.75);
-}
-
-.indepth_tabla_header_left{
-	float: left;
-	line-height: 50px;
-	margin-left: 20px;
-	font-size: 16px;
-	font-weight: 400;
-	font-style: italic;
-}
-
-.indepth_tabla_header_left span{
-	margin-right: 8px;
-}
-
-.indepth_tabla_header_r{
-	float: right;
-	margin-right: 20px;
-	font-size: 16px;
-	font-weight: 400;
-}
-
-.indepth_yellow{
-	color: #e3a922;
-	
-}
-
-.indepth_monedas{
-	width: 20px;
-	height: 18px;
-	background-image: url(../images/Monedas.png);
-	margin-right: 20px;
-	float: left;
-	margin-top: 16px;
-}
-
-.indepth_monedas_num{
-	float: left;
-	line-height: 50px;
-}
-
-.indepth_info_title{
-	color: #e3a922;
-	font-weight: 400;
-	font-style: italic;
-	
-}
-
-.indepth_tabla_info_content{
-	background-color:rgba(15, 18, 26, 0.60);
-	display: table;
-	height: 230px;
-	font-size: 18px;
-}
-
-.indepth_info_image{
-	text-align: center;
-	height: 145px;
-}
-
-.indepth_tabla_cont{
-	float: left;
-}
-
-#indepth_info_escudo{
-	width: 220px;
-	
-}
-
-.indepth_info_sep{
-	height: 230px; 
-	width: 1px;
-	float: left;
-	background-image: url(../images/Division_bloque1.png);
-	background-position: center bottom;
-}
-
-#indepth_info_uniforme{
-	width: 220px;
-}
-
-#indepth_info_estadio{
-	width: 298px;
-}
- .indepth_info_image{
-	background-position: center center;
-	background-repeat: no-repeat;
-}
-
-#indepth_info_escudo .indepth_info_image{
-	background-image: url(../images/Escudo_sounders.png);
-	background-size: 56px 82px;
-}
-
-#indepth_info_uniforme .indepth_info_image{
-	background-image: url(../images/Uniforme_sounders.png);
-	background-size: 49px 84px;
-}
-
-#indepth_info_estadio .indepth_info_image{
-	background-image: url(../images/Estadio_mestalla.png);
-	background-size: 185px 84px;
-}
-
-.indepth_est_partidos{
-	width: 100%;
-	height: 100px;
-	margin-top: 15px;
-}
-
-.indepth_est_partidos_header{
-	width: 147.2px;
-	text-align: center;
-	float: left;
-}
-
-.indepth_est_head_item_up{
-	width: 100%;
-	height: 50px;
-	font-size: 18px;
-	background-color:rgba(15, 18, 26, 0.75);
-	line-height: 50px;
-	
-}
-
-.indepth_est_head_item_down{
-	background-color:rgba(15, 18, 26, 0.60);
-	height: 50px;
-	font-size: 24px;
-	line-height: 50px;
-}
-
-.indepth_est_partidos_sep{
-	width: 1px;
-	float: left;
-	height: 100%;
-	background-image: url(../images/Division_bloque2.png);
-}
-
-.indepth_tabla_objetivos{
-	width: 100%;
-	display: inline-block;
-	margin-top: 15px;
-	
-}
-
-.indepth_tabla_objetivos_head{
-	width: 100%;
-	height: 70px;
-	background-color:rgba(15, 18, 26, 0.75);
-	color: #e3a922;
-	line-height: 70px;
-	text-align: left;
-	font-size: 20px;
-	font-weight: 600;
-	font-size: 18px;
-}
-
-.indepth_tabla_objetivos_head span{
-	margin-left: 100px;
-	text-align: left;
-	font-size: 20px;
-	text-transform: uppercase;
-}
-
-.indepth_tabla_objetivos_item{
-	width: 100%;
-	text-align: left;
-	padding: 16px 0px;
-	
-}
-
-.indepth_tabla_objetivos_item:nth-child(2n) {
-	background-color:rgba(15, 18, 26, 0.60);
-}
-
-.indepth_tabla_objetivos_item:nth-child(2n+1){
-	background-color:rgba(15, 18, 26, 0.75);
-}
-
-.indepth_tabla_objetivos_itemin{
-	width: 530px;
-	padding-right: 10px;
-	margin: auto;
-	color: rgba(255, 255, 255, 0.6);
-	
-}
-
-.indepth_done{
-	background-image: url(../images/Palomita_objetivos.svg);
-	background-position: right center;
-	background-repeat: no-repeat;
-	color: rgba(255, 255, 255, 1);
-}
-
 #indepth_break_1 .indepth_parallax_back{
 	background-image: url(../images/Anuncio.jpg);
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 .indepth_break{
@@ -598,255 +365,544 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 50% 50%;
-
 }
 
 #indepth_page2{
-	background-image: url(../images/Fondo_twitch.jpg);
+	background-image: url(../images/Fondo_disponible.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100% auto;
 	padding:50px 0px;
-	background-color: #180f21;
-}
-
-.indepth_twitch_cont{
-	width: 740px;
-	margin: auto;
-	display: table;
-	border: 10px solid #121213;
-	margin-bottom: 20px;
-}
-
-.indepth_twitch{
-	position: relative;
-	padding-bottom: 56.25%;
-	overflow: hidden;
-	margin: auto;
-	padding-top: 10%;
-}
-
-.indepth_twitch iframe
- {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.indepth_siguemos_cont{
-	display: table;
-	margin: auto;
-}
-
-.indepth_siguemos_text{
 	color: white;
-	font-size: 18px;
-	width: 190px;
-	background-color: #65459B;
-	height: 40px;
-	line-height: 40px;
-	font-weight: 500;
-	text-align: center;
+	
 }
 
-.indepth_flechita_siguemos{
-	width: 15px;
-	margin: auto;
-	margin-top: -3px;
-	height: 15px;
-	background-image: url(../images/Siguenos.svg);
-}
-
-.indepth_siguenos_juan{
+.indepth_disponible_title_line{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	width: 39%;
+	display: table;
 	margin-top: 10px;
-	width: 40px;
-	height: 50px;
-	background-image: url(../images/Juan.svg);
-	background-size: 100% 100%;
-	background-position: center center;
+}
+
+.indepth_disponible_title_line.left{
+	left: 0px;
+}
+
+.indepth_disponible_title_line.right{
+	right: 0px;
+}
+
+.indepth_disponible_title_line div{
+	width: 100%;
+	height: 2px;
+	display: table-cell;
+	vertical-align: middle;
+	background-color: #e2e1dd;
+}
+
+.indepth_disponible_title{
+	font-size: 28px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 960px;
+	display: table;
+	font-weight: 600;
 	margin: auto;
+	position: relative;
+}
+
+.indepth_disponible_numeros{
+	display: table;
+	margin: auto;
+	margin-top: 30px;
+}
+
+.indepth_disponible_numeros_item{
+	width: 64px;
+	height: 90px;
+	margin: 0 5px;
+	background-image: url(../images/0.svg);
+	float: left;
+}
+
+.indepth_disponible_numeros_item.numero_1{
+	background-image: url(../images/1.svg);
+}
+
+.indepth_disponible_numeros_item.numero_2{
+	background-image: url(../images/2.svg);
+}
+
+.indepth_disponible_numeros_item.numero_3{
+	background-image: url(../images/3.svg);
+}
+
+.indepth_disponible_numeros_item.numero_4{
+	background-image: url(../images/4.svg);
+}
+
+.indepth_disponible_numeros_item.numero_5{
+	background-image: url(../images/5.svg);
+}
+
+.indepth_disponible_numeros_item.numero_6{
+	background-image: url(../images/6.svg);
+}
+
+.indepth_disponible_numeros_item.numero_7{
+	background-image: url(../images/7.svg);
+}
+
+.indepth_disponible_numeros_item.numero_8{
+	background-image: url(../images/8.svg);
+}
+.indepth_disponible_numeros_item.numero_9{
+	background-image: url(../images/9.svg);
+}
+
+.indepth_diponible_barra{
+	width: 960px;
+	margin: auto;
+	display: table;
+	margin-top: 50px;
+}
+
+.indepth_diponible_barra_text{
+	font-weight: 600;
+	font-size: 18px;
+	text-transform: uppercase;
+	display: table;
+	width: 100%;
+}
+
+.indepth_diponible_text.left{
+	float: left;
+}
+
+.indepth_diponible_text.right{
+	float: right;
+}
+
+.indepth_barra_cont{
+	width: 100%;
+	height: 10px;
+	background-color: black;
+	position: relative;
+	margin-top: 5px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.indepth_barra_inicial{
+	height: 10px;
+	position: absolute;
+	left: 0px;
+	top:0px;
+	background-color: #e2e1dd;
+}
+
+.indepth_disponible_circulos{
+	display: table;
+	margin: auto;
+}
+
+.indepth_disponible_circulos_item{
+	width: 130px;
+	height: 150px;
+	float: left;
+	margin-top: 30px;
+	position: relative;
+}
+
+.indepth_disponible_text_item{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 100%;
 }
 
 #indepth_page3{
 	background: #121212;
-	padding: 50px 0px;
+	color: #e2e1dd;
+	padding: 30px 0px;
 }
-.indepth_quotes_cont{
-	width: 1000px;
-	display: table;
+
+#indepth_page3 .indepth_disponible_title_line{
+	width: 30%;
+	background-color: black;
+}
+
+
+
+.indepth_apuestas_container{
+	width: 960px;
 	margin: auto;
 	margin-top: 30px;
 }
 
-.indepth_quote_box{
-	display: table; 
-	float: left;
-	width: 480px;
-	margin: 0 10px;
+.indepth_apuestas_item{
+	margin-top: 30px;
 }
 
-.indepth_quote_text{
+.indepth_apuestas_fecha{
 	width: 100%;
-	min-height: 215px;
+	height: 38px;
+	background-color: #404446;
+	line-height: 44px;
+	text-transform: uppercase;
+	color: #d6d6d6;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.indepth_apuestas_fecha span{
+	margin-left: 16px;
+	color: #d6d6d6;
+}
+
+.indepth_apuestas_info{
+	width: 100%;
+	min-height: 145px;
 	display: table;
-	background: #1d2029;
+	margin-top: 6px;
 }
 
-.indepth_quote_autor{
-	width: 100%;
-	height:  40px;
-	line-height: 40px;
-	color: #e3a922;
-	background: #161a20;
-	font-size: 16px;
-	font-style: italic;
-	text-align: center;
+
+.indepth_apuestas_col{
+	float: left;
+	
 }
 
-.indepth_quotes{
-	height: 50px;
+
+.indepth_apuestas_col.left{
+	width: 70px;
+	margin-right: 1px;	
+}
+
+.indepth_apuestas_col.center{
+	width: 483px;
+	margin-right: 2px;	
+}
+
+.indepth_apuestas_col.right{
+	width: 373px;
+	margin-right: 1px;	
+	background-color: #28292a;
+	height: 131px;
+	padding: 15px 15px 0px 15px;
+	line-height: 22px;
+}
+
+.indepth_apuestas_col.right p{
+}
+
+.indepth_logo_apuesta{
 	width: 100%;
-	
-	
+	height: 70px;
+	background-image: url(../images/Light_soccer.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
 	background-size: 40px auto;
-	background-repeat: no-repeat;
 }
 
-.indepth_quotes.up{
-	background-image: url(../images/Quote_abre.svg);
-	background-position: center bottom;
+.indepth_logo_apuesta.basket{
+	background-image: url(../images/Light_basketball.svg);
 }
 
-.indepth_quotes.down{
-	background-image: url(../images/Quote_cierra.svg);
-	background-position: center top;
-}
-
-.indepth_quote_center{
-	color: #c8c8d3;
-	text-align: center;
-	width: 100%;
-	height: 130px;
-	display: table;
-}
-
-.indepth_quote_cont_text{
-	padding: 20px;
+.indepth_info{
 	display: table-cell;
-	line-height: 30px;
+	width: auto;
+	margin: auto;
+	padding-top:  10px;
 	vertical-align: middle;
-	
-}
-#indepth_page4{
-	background-image: url(../images/Fondo_lineadetiempo.jpg);
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-color: #121212;
-	background-position: center center;
-	margin: auto;
-	background-color: #191c22;
-	padding: 40px 0;
-}
-
-.indepth_timeline{
-	width: 600px;
-	margin: auto;
-	display: table;
-	height: 100%;
-	position: relative;
-	margin-top: 30px;
-}
-
-.indepth_timeline_cont{
-	width: 100%;
-	margin: auto;
-	text-align: left;
-	display: table;
-	margin-bottom: 50px;
-
-}
-
-.indepth_timeline_cont:last-child{
-	margin-bottom: 0px;
-}
-
-.indepth_timeline_m{
-	width: 100%;
-	display: table;
-	margin: 0px auto;
-	background: transparent;
-	z-index: 10;
-	position: relative;
-	
-}
-
-.indepth_timeline_bar{
-	position: absolute;
-	top:0px;
-	bottom: 0px;
-	width: 3px;
-	background: #0E0E10;
-	left:28.5px;
-	z-index: 1;
-}
-
-.indepth_tl_icono{
-	width: 60px;
-	height: 60px;
-	background-image: url(../images/Icono_goles.svg);
-	float: left;
-	margin-right: 15px;
-	background-repeat: no-repeat;
-	background-size: 100%;
-	background-position: center center;
-}
-
-
-.indepth_tl_icono.goles{
-	background-image: url(../images/Icono_goles.svg);
-}
-
-.indepth_tl_icono.jugador{
-	background-image: url(../images/Icono_jugador.svg);
-}
-
-.indepth_tl_icono.logros{
-	background-image: url(../images/Icono_logros.svg);
-}
-
-.indepth_tl_icono.uniforme{
-	background-image: url(../images/Icono_uniforme.svg);
-}
-
-.indepth_tl_icono.estadio{
-	background-image: url(../images/Icono_estadio.svg);
-}
-
-.indepth_tl_icono.monedas{
-	background-image: url(../images/Icono_monedas.svg);
-}
-
-.indepth_tl_text{
-	display: table;
-	padding: 10px 0px;
-	float: left;
-}
-
-.indepth_tl_fecha{
-	color: #e4bb40;
-	font-size: 18px;
-	margin-bottom: 4px;
-	line-height: 18px;
+	font-weight: 600;
 	font-style: italic;
+	font-size: 16px;
+	
+	
 }
 
-.indepth_tl_dato{
-	color: white;
+.indepth_info span{
+	font-weight: 600;
+	font-style: normal;
+}
+
+
+.indepth_info p{
+	margin-bottom: 10px;
+}
+
+.indepth_apuestas_up{
+	height: 70px;
+	margin-bottom: 2px;
+	background-color: #28292a;
+}
+
+.indepth_apuestas_down{
+	height: 74px;
+	background-color: #28292a;
+}
+
+.indepth_apuestas_game{
+	text-transform: uppercase;
 	font-size: 18px;
+	padding-top: 12px;
+	margin-left: 20px;
+}
+
+.indepth_apuestas_game2{
+	font-size: 18px;
+	font-weight: 300;
+	margin-left: 20px;
+	padding-top: 10px;
+}
+
+.indepth_apostado{
+	padding-left: 45px;
+	background-image: url(../images/Apostado.svg);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	height: 36px;
+	line-height: 36px;
+}
+
+.indepth_status{
+	padding-left: 45px;
+	background-image: url(../images/Pendiente.svg);
+	background-repeat: no-repeat;
+	background-position: 15px center;
+	height: 36px;
+	line-height: 36px;
+	color: #1ca4e1;
+}
+
+.indepth_status.pendiente{
+	color: #1ca4e1;
+	background-image: url(../images/Pendiente.svg);
+}
+
+.indepth_status.ganado{
+	color: #46bc99;
+	background-image: url(../images/Ganado.svg);
+}
+
+.indepth_status.perdido{
+	color: #d83c3c;
+	background-image: url(../images/Perdido.svg);
+}
+
+.indepth_nota{
+	background-color: #404347;
+	color: #f7f7f7;
+	font-size: 16px;
+	width: 620px;
+	margin: auto;
+	margin-top: 30px;
+	padding: 46px 180px;
+	text-align: center;
 	line-height: 18px;
+	letter-spacing: .7px;
+}
+
+
+.indepth_nota_title{
+	font-weight: 600;
+	line-height: 24px;
+}
+
+
+#indepth_page4{
+	background-image: url(../images/Fondo_expertos.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: auto;
+	background-color: white;
+	color: #363636;
+	padding: 30px 0;
+}
+
+#indepth_page4 .indepth_disponible_title_line div{
+	background-color: #363636;
+}
+
+.indepth_expertos_container{
+	width: 960px;
+	min-height: 100px;
+	margin: auto;
+	margin-top: 20px;
+	display: table;
+}
+
+.indepth_experto_container{
+	float: left;
+	width: 310px;
+	display: table;
+	background-color: white;
+	
+	
+}
+
+.indepth_experto_sep{
+	width: 15px;
+	float: left;
+	min-height: 100px;
+	height: 100%;
+}
+
+.indepth_experto_foto{
+	display: table;
+	width: 100%;
+	height: auto;
+	
+}
+
+
+
+.indepth_experto_foto img{
+	width: 100%;
+}
+
+.indepth_expertos_info{
+	display: table;
+	padding: 10px 15px;
+}
+
+
+.indepth_experto_nombre{
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.indepth_experto_desc{
+	font-style: italic;
+	font-size: 18px;
+	color: #8c8f95;
+	margin-top: 5px;
+}
+
+.indepth_expertos_info .indepth_apuestas_game{
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 0px;
+	font-weight: 600;
+	color: #8c8f95;
+}
+
+.indepth_expertos_info .indepth_apuestas_game2{
+	font-size: 18px;
+	margin-left: 0px;
+	padding-top: 3px;
+	color: #8c8f95;
+	font-weight: 400;
+}
+
+.indepth_expertos_info .indepth_apostado{
+	color: #8c8f95;
+	margin-left: 0;
+	background-position: 0px 0px;
+	padding-left: 25px;
+	line-height: 18px;
+	padding-top: 2px;
+	margin-top: 7px;
+}
+
+.indepth_apuesta_expertos{
+	max-width: 960px;
+	width: 100%;
+	margin: auto;
+	margin-top: 15px;
+	background-color: white;
+	padding: 30px 0;
+	text-align: center;
+}
+
+.indepth_nombre_apuesta{
+	font-size: 22px;
+	font-weight: 600;
+}
+
+.indepth_fecha_expertos{
+	font-size: 16px;
+	color: #8c8f95;
+	font-weight: 300;
+	padding-top: 3px;
+	
+}
+
+.indepth_apuesta_expertos_resultado{
+	width: 310px;
+	background-color: white;
+	float: left;
+	padding: 15px 0;
+	text-align: center;
+}
+
+
+.indepth_apuesta_expertos_resultados{
+	display: table;
+	width: 960px;
+	margin: auto;
+	margin-top: 15px;
+}
+
+.indepth_trofeo{
+	width: 25px;
+	height: 25px;
+	margin: auto;
+	background-image: url(../images/Copa_2.svg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	
+}
+
+.indepth_trofeo.win{
+	background-image: url(../images/Copa_1.svg);
+}
+
+.indepth_resultado_experto{
+	font-size: 26px;
+	font-weight: 600;
+	padding-top: 10px;
+}
+
+.indepth_expertos_efectividad{
+	width: 280px;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.indepth_efectividad_texto{
+	color: #8c8f95;
+	font-size: 18px;
+	font-weight: 600;
+	display: table;
+	width: 100%;
+}
+
+.indepth_efectividad_texto_izq{
+	float: left;
+}
+
+.indepth_efectividad_texto_der{
+	float: right;
+}
+
+.indepth_efectividad_bar{
+	width: 100%;
+	height: 10px;
+	background-color: #e7e7e7;
+	overflow: hidden;
+	border-radius: 50px;
+	margin-top: 10px;
+}
+
+.indepth_efectividad_bar div{
+	background-color: #363636;
+	height: 10px;
 }
 
 @media screen and (max-width:1023px) {
@@ -861,216 +917,460 @@
 	}
 }
 
+@media screen and (max-width:960px) {
+	.indepth_cover_side.right {
+		right: -200px;
+	}
+	
+	.indepth_cover_side.left {
+		left: -200px;
+	}
+	
+	.indepth_cover_side {
+		width: 254px;
+		background-size: 100% auto;
+	}
+	
+	#ficha1 {
+		top: 85px;
+		left: 120px;
+	}
+	
+	#indepth_page2{
+		background-size: auto 100%;
+	}
+	
+	.indepth_disponible_title{
+		width: 800px;
+	}
+	
+	.indepth_disponible_title_line{
+		width: 37%;
+	}
+	
+	.indepth_diponible_barra{
+		width: 800px;
+	}
+	
+	.indepth_disponible_circulos_item{
+		width: 100px;
+	}
+	
+	.indepth_apuestas_container{
+		width: 800px;
+	}
+	
+	.indepth_apuestas_col.right{
+		width: 333px;
+	}
+	
+	.indepth_apuestas_col.center{
+		width: 363px;
+	}
+	
+	.indepth_nota{
+		width: 440px;
+	}
+	
+	.indepth_expertos_container{
+		width: 800px;
+	}
+	
+	.indepth_experto_container{
+		width: 256px;
+	}
+	
+	.indepth_apuesta_expertos{
+		width: 800px;
+	}
+	.indepth_expertos_efectividad{
+		width: 80%;
+	}
+	.indepth_apuesta_expertos_resultados{
+		width: 800px;
+	}
+	
+	.indepth_apuesta_expertos_resultado{
+		width: 256px;
+	}
+}
+
+
 @media screen and (max-width:830px) {
-	.indepth_jugador{
-		margin: 0px 20px;
+	.indepth_cover_side.right {
+		right: -100px;
 	}
 	
-	.indepth_break .indepth_page_body{
-		height: 100%;
-		background-size: auto 800px;
-		top: 0px;
-		position: relative;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-position: 50% 50%;
-	}
-}
-
-@media screen and (max-width:760px) {
-	.indepth_tabla_container{
-		width: 560px;
+	.indepth_cover_side.left {
+		left: -100px;
 	}
 	
-	#indepth_info_estadio {
-		width: 238px;
+	.indepth_cover_side {
+		width: 204px;
+		background-size: 100% auto;
 	}
 	
-	#indepth_info_uniforme,  #indepth_info_escudo{
-		width: 160px;
-	}
-	.indepth_est_partidos_header {
-		width: 110.2px;
-	}
-	.indepth_tabla_objetivos_itemin {
-		width: 500px;
+	#ficha1 {
+		top: 85px;
+		left: 120px;
 	}
 	
-	.indepth_tabla_objetivos_head span{
-		margin-left: 30px;
+	#indepth_page2{
+		background-size: auto 100%;
 	}
 	
-	.indepth_twitch_cont{
-		max-width: 760px;
-		width: 90%;
+	.indepth_disponible_title{
+		width: 700px;
 	}
 	
-}
-
-@media screen and (max-width:660px) {
-	.indepth_jugador{
-		margin: 0px 10px;
+	.indepth_disponible_title_line{
+		width: 37%;
 	}
 	
-	.indepth_timeline{
-		width: 500px;
+	.indepth_diponible_barra{
+		width: 700px;
 	}
 	
-	.indepth_break{
-		height: 600px;
+	.indepth_disponible_circulos_item{
+		width: 100px;
+		height: 130px;
 	}
 	
-	.indepth_break .indepth_page_body{
-		height: 100%;
-		background-size: auto 600px;
-
+	.indepth_apuestas_container{
+		width: 700px;
 	}
 	
-	.indepth_jugador {
-		width: 280px;
+	.indepth_apuestas_col.right{
+		width: 293px;
 	}
 	
-	.indepth_jugador_info {
-		width: 125px;
-		float: left;
-		margin-right: 30px;
+	.indepth_apuestas_col.center{
+		width: 303px;
 	}
 	
-	.indepth_jugador_est {
-		width: 125px;
-		float: left;
-		display: block;
-		background-image: none;
+	.indepth_nota{
+		width: 380px;
+		padding: 46px 160px;
 	}
 	
-	.indepth_campo{
-		background-image: none;
+	.indepth_expertos_container{
+		width: 635px;
 	}
 	
-}
-
-@media screen and (max-width:600px) {
-	.indepth_jugador{
-		margin: 0 40px;
-		margin-bottom: 20px;
-	}
-	
-	#indepth_intro{
-		height: auto;
-		display: table;
-	}
-	
-	#indepth_intro .indepth_page_body{
-		position: inherit;
-	}
-	
-	.indepth_jugadores{
-		margin-bottom: 0px;
-	}
-}
-
-@media screen and (max-width:414px) {
-	.indepth_tabla_container{
-		width: 310px;
-		display: block;
-	}
-	
-	.mobile_none{
-		display: none;
-	}
-	
-	.indepth_est_partidos_header{
-		width: 154.5px;
-	}
-	.indepth_seprador{
-		width: 300px;
-	}
-	
-	.indepth_tabla_header{
-		height: 100px;
-	}
-	
-	.indepth_tabla_header_left{
-		float: none;
-		margin: auto;
-		display: table;
-	}
-	
-	#indepth_info_sep2{
-		display: none;
-	}
-	
-	#indepth_info_uniforme, #indepth_info_escudo {
-		width: 154.5px;
-	}
-	
-	.indepth_est_partidos_header.last_mobile{
-		width: 100%;
-	}
-	
-	
-	#indepth_info_estadio {
+	.indepth_experto_container{
 		width: 310px;
 		margin-bottom: 15px;
 	}
 	
-	.indepth_tabla_header_r {
-		float: none; 
-		margin-right: 0px; 
+	.indepth_experto_container:last-child{
+		float: none;
 		margin: auto;
-		display: table;
 	}
 	
-	.indepth_tabla_objetivos_itemin {
-		width: 270px;
+	.indepth_apuesta_expertos{
+		width: 700px;
 	}
 	
-	.indepth_quotes_cont, .indepth_quote_box {
-		width: 300px;
+	
+	.indepth_experto_sep.sep_dos{
+		display: none;
 	}
 	
-	.indepth_timeline{
-		width: 300px;
-		
+
+	.indepth_expertos_efectividad{
+		width: 80%;
+	}
+	.indepth_apuesta_expertos_resultados{
+		width: 700px;
 	}
 	
-	.indepth_tl_text{
-		max-width: 220px;
+	.indepth_apuesta_expertos_resultado{
+		width: 228.3px;
 	}
 	
-	.indepth_break{
-		height: 300px;
+	.indepth_disponible_title_line{
+		width: 34%;
 	}
-	
-	#indepth_break_1 .indepth_parallax_back{
-		background-image: url(../images/Anuncio.jpg);
-		background-size: auto 320px;
+	#ficha2{
+		right: 80px;
 	}
 }
 
+
+
+@media screen and (max-width:760px) {
+	.indepth_muneco_img{
+		right: 100px;
+	}	
+	
+	.indepth_disponible_title{
+		width: 660px;
+	}
+	
+	.indepth_diponible_barra{
+		width: 600px;
+	}
+	
+	.indepth_disponible_circulos{
+		width: 540px;
+	}
+	
+	.indepth_disponible_circulos_item{
+		width: 130px;
+		height: 150px;
+	}
+	
+	#indepth_page3 .indepth_disponible_title_line{
+		width: 23%;
+	}
+	
+	.indepth_apuestas_container{
+		width: 600px;
+	}
+	
+	.indepth_apuestas_col.right {
+		width: 193px;
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.indepth_nota {
+		width: 380px;
+		padding: 46px 110px;
+	}
+	
+	.indepth_title{
+		width: 500px;
+		margin: auto;
+	}
+	
+	.indepth_title img{
+		width: 100%;
+	}
+	
+	#ficha4{
+		display: none;
+	}
+	
+	#ficha1 {
+		left: 40px;
+	}
+}
+
+@media screen and (max-width:660px) {
+	.indepth_page_content .indepth_text{
+		width: 80%;
+	}
+	
+	.indepth_disponible_title{
+		width: 600px;
+	}
+	
+	.indepth_experto_sep.sep_uno{
+		display: none;
+	}
+	
+	.indepth_experto_container{
+		float: none;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+	
+	.indepth_disponible_title{
+		width: 90%;
+	}
+	
+	.indepth_disponible_title_line{
+		width: 20%;
+	}
+	
+	.indepth_expertos_container{
+		width: auto;
+	}
+	
+	.indepth_apuesta_expertos{
+		padding: 30px 15px;
+		width: auto;
+		min-width: 270px;
+		display: table;
+	}
+	
+	.indepth_apuesta_expertos_resultados{
+		width: auto;
+		display: table;
+	}
+	
+	.indepth_apuesta_expertos_resultado{
+		float: none;
+		margin: auto;
+		margin-bottom: 15px;
+		width: 300px;
+	}
+	
+	
+}
+
+@media screen and (max-width:600px) {
+	.indepth_cover_side{
+		
+	}	
+	
+	#ficha1 {
+		display: none;
+	}
+	
+	.indepth_diponible_barra{
+		width: 90%;
+	}
+	
+	.indepth_disponible_circulos {
+		width: 520px;
+	}
+	
+	.indepth_disponible_circulos {
+		width: 260px;
+	}
+	
+	.indepth_apuestas_container {
+		width: 300px;
+	}
+	
+	.indepth_apuestas_col.center{
+		float: none;
+		width: 100%;
+	}
+	
+	.indepth_apuestas_col{
+		float: none;
+	}
+	
+	.indepth_apuestas_col.right{
+		width: 90%;
+		padding: 15px 5%;
+		height: auto;
+		display: table;
+		margin-top: 2px;
+	}
+	
+	.indepth_nota {
+		width: 200px;
+		padding: 46px 50px;
+	}
+	
+	.indepth_title {
+		width: 80%;
+	}
+	
+	#indepth_cover .indepth_page_body{
+		z-index: 100;
+	}
+	
+	#ficha3 {
+		top: 500px;
+		left: 40px;
+	}
+	#indepth_page3 .indepth_disponible_title_line{
+		width: 15%;
+	}
+	
+	#indepth_page1{
+		height: 500px;
+	}
+	
+	.indepth_muneco{
+		width: 100%;
+	}
+	
+	
+	.indepth_muneco_img{
+		width: 100%;
+		right: 0;
+		height: 450px;
+		
+	}
+	
+	.indepth_muneco_img img{
+		width: 300px;
+		margin: auto;
+		
+	}
+	
+	.indepth_muneco_lines{
+		width: 200px;
+	}
+	
+	.indepth_muneco_info{
+		margin-top: 0;
+		position: absolute;
+		bottom: 30px;
+		left: 0px;
+		z-index: 100;
+		width: 100%;
+	}
+	
+	.indepth_muneco_lines{
+		display: none;
+	}
+	
+	.indepth_muneco_item_left{
+		text-align: center;
+		width: 200px;
+		margin: auto;
+		float: none;
+	}
+	
+	.indepth_page_content .indepth_text{
+		width: 96%
+	}
+
+	
+}
+
+@media screen and (max-width:414px) {
+	#ficha3 {
+		display: none;	
+	}	
+	
+	#indepth_page3 .indepth_disponible_title_line {
+width: 10%;
+}
+
+.indepth_break {
+height: 500px;
+}
+	
+}
+
 @media screen and (max-width:385px) {
-	.indepth_jugador{
-		margin: 0 15px;
-		margin-bottom: 20px;
-	}
-	.indepth_jugadores{
-		max-width: 310px;
-	}
 	
-	#indepth_cover .indepth_title{
-		font-size: 50px;
-	}
-	
-	#indepth_cover .indepth_subtitle{
-		font-size: 52px;
-	}
 	
 	#indepth_cover .indepth_titlle_container{
-		margin-top: 100px;
+		margin-top: 200px;
 	}
 	
 	#indepth_cover{
 		height: 500px;
+	}
+	
+	#ficha5{
+		display: none;
+	}
+	#indepth_page3 .indepth_disponible_title_line {
+width: 5%;
+}
+
+#indepth_cover .indepth_parallax_back {
+background-size: 250px auto, cover;
+background-position: center 125px, 50% 0px;
+background-attachment: scroll;
+}
+	
+}
+
+@media screen and (max-width:360px) {
+	.indepth_disponible_numeros_item{
+		width: 50px;
+		background-size: 100% auto;
+		background-repeat: no-repeat;
 	}
 }
 
