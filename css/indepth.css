@@ -4,6 +4,29 @@
 	display: none;
 }
 
+.indepth_apuesta_ahora{
+	width: auto;
+	padding: 0 10px;
+	background-color: #97292f;
+	float: right;
+	height: auto;
+	height: 28px;
+	margin-top: 5px;
+	line-height: 32px;
+	color: white;
+	margin-right: 10px;
+	border-radius: 5px;
+	font-size: 12px;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black ;
+}
+
+.indepth_apuesta_ahora:hover{
+	
+}
+
+
+
 .indepth_pages{
 	width: 100%;
 	position: relative;
@@ -101,7 +124,7 @@
 }
 
 .indepth_page_content .indepth_title{
-	font-size:20px;   /* tamaño */
+	font-size:20px;   /* tamaÃ±o */
 	font-weight: 700;
 	text-transform: uppercase; /* comentar para quitar mayusculas */
 	text-align: center; /* ajustar alineacion (justify, left, right o center) */	
@@ -590,8 +613,8 @@
 	width: 373px;
 	margin-right: 1px;	
 	background-color: #28292a;
-	height: 131px;
-	padding: 15px 15px 0px 15px;
+	min-height: 116px;
+	padding: 15px;
 	line-height: 22px;
 }
 
@@ -635,7 +658,8 @@
 }
 
 .indepth_apuestas_up{
-	height: 70px;
+	min-height: 60px;
+	padding-bottom: 10px;
 	margin-bottom: 2px;
 	background-color: #28292a;
 }
@@ -962,6 +986,7 @@
 	
 	.indepth_apuestas_col.right{
 		width: 333px;
+		
 	}
 	
 	.indepth_apuestas_col.center{
@@ -1320,6 +1345,15 @@
 	
 	.indepth_page_content .indepth_text{
 		width: 96%
+	}
+	
+	.indepth_apuesta_ahora{
+		width: 100%;
+		margin: auto;
+		padding: 0;
+		text-align: center;
+		margin-top: -5px;
+		border-radius: 0;
 	}
 
 	
