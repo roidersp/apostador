@@ -583,6 +583,7 @@
 .indepth_apuestas_fecha span{
 	margin-left: 16px;
 	color: #d6d6d6;
+	float: left;
 }
 
 .indepth_apuestas_info{

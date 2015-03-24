@@ -159,7 +159,7 @@ else
 
 
 
-indepth_circulos("circulo_futbol", 100, 94, 0, "soccer");
+indepth_circulos("circulo_futbol", 100, 94, 100, "soccer");
 indepth_circulos("circulo_americano", 100, 94, 0, "football");
 indepth_circulos("circulo_basketball", 100, 94, 0, "basketball");
 indepth_circulos("circulo_tenia", 100, 94, 0, "tennis");
