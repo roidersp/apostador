@@ -650,9 +650,13 @@
 
 .indepth_apuestas_up{
 	min-height: 60px;
+<<<<<<< Updated upstream
 	padding-bottom: 10px;
+=======
+>>>>>>> Stashed changes
 	margin-bottom: 2px;
 	background-color: #28292a;
+	padding-bottom: 10px;
 }
 
 .indepth_apuestas_down{
