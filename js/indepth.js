@@ -4,8 +4,48 @@ var disqus_url="626afd40-91b2-4c1d-b95e-8e298ed39c2f";
 var disqus_number_c=2;
 var disqus_per_page=3;
 var tamaño_total=1920;
+var ant_oculto=true;
+var ant_fixed=false;
 
 
+
+$("#indepth_apuestas_anteriores_boton").on("click",function(){
+	var toggle_switch = $(this); 
+	
+	if(!ant_oculto && ant_fixed){
+		 $('html, body').animate({
+		 	scrollTop: ($("#indepth_apuestas_anteriores_back").offset().top-200)
+    	}, 500);
+	}
+	
+	$("#indepth_apuestas_anteriores").slideToggle('1000',function(){
+    if($(this).css('display')=='none'){
+          toggle_switch.find("span").html('Ver apuestas anteriores');
+          toggle_switch.removeClass("indepth_fixed");
+          toggle_switch.find("img").removeClass("girar_180");
+		  ant_oculto=true;
+          
+    }else{
+      toggle_switch.find("span").html('Ocultar apuestas anteriores');
+      toggle_switch.find("img").addClass("girar_180");
+      ant_oculto=false;
+      $('#indepth_apuestas_anteriores_boton').waypoint(function(direction){
+		if(direction=="down"){
+			toggle_switch.addClass("indepth_fixed");
+			ant_fixed=true;
+		}else{
+			toggle_switch.removeClass("indepth_fixed");
+			ant_fixed=false;
+		}
+		
+	},{
+	offset:"100px"
+      }
+      
+    ); 
+    }
+});
+});
 
 
 var indepth_circulos = function(component, width, minw, porcentaje, img){
@@ -159,10 +199,10 @@ else
 
 
 
-indepth_circulos("circulo_futbol", 100, 94, 100, "soccer");
+indepth_circulos("circulo_futbol", 100, 94, 63, "soccer");
 indepth_circulos("circulo_americano", 100, 94, 0, "football");
-indepth_circulos("circulo_basketball", 100, 94, 100, "basketball");
+indepth_circulos("circulo_basketball", 100, 94, 0, "basketball");
 indepth_circulos("circulo_tenia", 100, 94, 0, "tennis");
-indepth_circulos("circulo_box", 100, 94, 0, "box");
+indepth_circulos("circulo_box", 100, 94, 36, "box");
 indepth_circulos("circulo_hockey", 100, 94, 0, "hockey");
 indepth_circulos("circulo_beisball", 100, 94, 0, "baseball");
