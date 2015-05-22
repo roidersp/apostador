@@ -968,6 +968,12 @@
 	height: 10px;
 }
 
+.indepth_apuesta_expertos_resultados .indepth_apuesta_ahora {
+  display: table;
+  margin: 10px auto;
+  float: none;
+}
+
 @media screen and (max-width:1023px) {
 	.indepth_quotes_cont{
 		width: 500px;
