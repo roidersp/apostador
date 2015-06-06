@@ -669,6 +669,14 @@
 	background-image: url(../images/Light_basketball.svg);
 }
 
+.indepth_logo_apuesta.tenis{
+	background-image: url(../images/Light_tennis.svg);
+}
+
+.indepth_logo_apuesta.baseball{
+	background-image: url(../images/Light_baseball.svg);
+}
+
 .indepth_info{
 	display: table-cell;
 	width: auto;
@@ -968,10 +976,17 @@
 	height: 10px;
 }
 
+<<<<<<< HEAD
 .indepth_apuesta_expertos_resultados .indepth_apuesta_ahora{
 	display: table;
 	margin: 10px auto;
 	float: none;
+=======
+.indepth_apuesta_expertos_resultados .indepth_apuesta_ahora {
+  display: table;
+  margin: 10px auto;
+  float: none;
+>>>>>>> origin/gh-pages
 }
 
 @media screen and (max-width:1023px) {
