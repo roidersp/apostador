@@ -16,8 +16,6 @@
 	
 }
 
-
-
 #indepth_apuestas_anteriores_boton:Hover{
 	background-color: rgba(58, 53, 53, 1);
 }
@@ -675,6 +673,10 @@
 
 .indepth_logo_apuesta.baseball{
 	background-image: url(../images/Light_baseball.svg);
+}
+
+.indepth_logo_apuesta.hockey{
+	background-image: url(../images/Light_hockey.svg);
 }
 
 .indepth_info{
